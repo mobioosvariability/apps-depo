@@ -1,0 +1,17 @@
+{
+    "fsPath": "c:\\Users\\admin\\Documents\\Projets\\Mobioos-Variability\\Test_workspace\\BankWebV2\\replacement-library.json",
+    "replacements": [
+        {
+            "id": "Limit-If",
+            "content": "if (amount > 0)\r\n{\r\n  this.Balance -= amount;\r\n}"
+        },
+        {
+            "id": "Bank-Add",
+            "content": "<iframe\r\n  width=\"175\"\r\n  height=\"202\"\r\n  id=\"themoneyconverter-mini\"\r\n  src=\"https://bankin.com/\"\r\n  frameborder=\"0\"\r\n  marginwidth=\"0\"\r\n  marginheight=\"0\"\r\n  scrolling=\"no\"\r\n  seamless=\"seamless\"\r\n></iframe>"
+        },
+        {
+            "id": "No-Google-Log",
+            "content": "console.log('No Google login...');"
+        }
+    ]
+}

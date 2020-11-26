@@ -1,0 +1,12 @@
+{
+    "seeds": [
+        {
+            "analyzer": "Language Server Protocol",
+            "featureName": "CurrencyExchange",
+            "startLine": 122,
+            "startColumn": 12,
+            "endLine": 132,
+            "endColumn": 22
+        }
+    ]
+}

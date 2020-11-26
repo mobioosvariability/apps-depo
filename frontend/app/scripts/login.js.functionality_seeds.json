@@ -1,0 +1,12 @@
+{
+    "seeds": [
+        {
+            "analyzer": "Language Server Protocol",
+            "featureName": "Google",
+            "startLine": 60,
+            "startColumn": 9,
+            "endLine": 60,
+            "endColumn": 20
+        }
+    ]
+}

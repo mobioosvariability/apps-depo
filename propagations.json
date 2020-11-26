@@ -1,0 +1,196 @@
+{
+    "deletionPropagations": [
+        {
+            "file": "backend\\src\\models\\Account.cs",
+            "propagations": [
+                {
+                    "feature": "CurrencyExchange",
+                    "ranges": [
+                        {
+                            "startLine": 7,
+                            "startColumn": 4,
+                            "endLine": 7,
+                            "endColumn": 40
+                        },
+                        {
+                            "startLine": 14,
+                            "startColumn": 6,
+                            "endLine": 14,
+                            "endColumn": 29
+                        },
+                        {
+                            "startLine": 39,
+                            "startColumn": 6,
+                            "endLine": 39,
+                            "endColumn": 63
+                        }
+                    ]
+                },
+                {
+                    "feature": "Limit",
+                    "ranges": [
+                        {
+                            "startLine": 8,
+                            "startColumn": 4,
+                            "endLine": 8,
+                            "endColumn": 38
+                        },
+                        {
+                            "startLine": 40,
+                            "startColumn": 6,
+                            "endLine": 40,
+                            "endColumn": 57
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "file": "backend\\src\\Controllers\\AccountController.cs",
+            "propagations": [
+                {
+                    "feature": "CurrencyExchange",
+                    "ranges": [
+                        {
+                            "startLine": 19,
+                            "startColumn": 12,
+                            "endLine": 19,
+                            "endColumn": 64
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "file": "frontend\\app\\scripts\\login.js",
+            "propagations": [
+                {
+                    "feature": "Google",
+                    "ranges": [
+                        {
+                            "startLine": 60,
+                            "startColumn": 0,
+                            "endLine": 68,
+                            "endColumn": 1
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "replacementPropagations": [
+        {
+            "file": "backend\\src\\models\\Account.cs",
+            "propagations": [
+                {
+                    "feature": "Limit",
+                    "ranges": [
+                        {
+                            "startLine": 26,
+                            "startColumn": 6,
+                            "endLine": 29,
+                            "endColumn": 7,
+                            "libraryId": "Limit-If"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "file": "frontend\\app\\index.html",
+            "propagations": [
+                {
+                    "feature": "CurrencyExchange",
+                    "ranges": [
+                        {
+                            "startLine": 122,
+                            "startColumn": 12,
+                            "endLine": 132,
+                            "endColumn": 22,
+                            "libraryId": "Bank-Add"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "file": "frontend\\app\\scripts\\login.js",
+            "propagations": [
+                {
+                    "feature": "Google",
+                    "ranges": [
+                        {
+                            "startLine": 132,
+                            "startColumn": 0,
+                            "endLine": 132,
+                            "endColumn": 35,
+                            "libraryId": "No-Google-Log"
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "resourcePropagations": [
+        {
+            "file": "frontend\\app\\index.html",
+            "propagations": [
+                {
+                    "feature": "Theme",
+                    "ranges": [
+                        {
+                            "startLine": 22,
+                            "startColumn": 33,
+                            "endLine": 22,
+                            "endColumn": 64
+                        }
+                    ]
+                },
+                {
+                    "feature": "Icon",
+                    "ranges": [
+                        {
+                            "startLine": 98,
+                            "startColumn": 26,
+                            "endLine": 98,
+                            "endColumn": 62
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "file": "frontend\\app\\scripts\\data.js",
+            "propagations": [
+                {
+                    "feature": "Data",
+                    "ranges": [
+                        {
+                            "startLine": 1,
+                            "startColumn": 16,
+                            "endLine": 1,
+                            "endColumn": 36
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "pathPropagations": [
+        {
+            "propagatedPath": "styles/banks/banque_postale.css",
+            "sourceFile": "frontend\\app\\index.html",
+            "feature": "Theme"
+        },
+        {
+            "propagatedPath": "images/bank_icons/banque_postale.png",
+            "sourceFile": "frontend\\app\\index.html",
+            "feature": "Icon"
+        },
+        {
+            "propagatedPath": "../data/default.json",
+            "sourceFile": "frontend\\app\\scripts\\data.js",
+            "feature": "Data"
+        }
+    ]
+}

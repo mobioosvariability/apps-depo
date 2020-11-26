@@ -1,0 +1,12 @@
+{
+    "seeds": [
+        {
+            "analyzer": "Resource Analyzer",
+            "featureName": "Data",
+            "startLine": 1,
+            "startColumn": 16,
+            "endLine": 1,
+            "endColumn": 36
+        }
+    ]
+}

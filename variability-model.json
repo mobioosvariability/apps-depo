@@ -1,0 +1,94 @@
+{
+    "rootDir": "c:\\Users\\admin\\Documents\\Projets\\Mobioos-Variability\\Test_workspace\\BankWebV2",
+    "core": {
+        "key": 0,
+        "name": "Core",
+        "type": "Core",
+        "parent": -1,
+        "parentRelation": "Normal",
+        "presence": "Mandatory",
+        "lgFile": "",
+        "role": "",
+        "hexColor": "",
+        "help": ""
+    },
+    "functionalities": [
+        {
+            "key": -2,
+            "name": "Google",
+            "type": "Functionality feature",
+            "parent": -3,
+            "parentRelation": "Or",
+            "presence": "Normal",
+            "lgFile": "",
+            "role": "",
+            "hexColor": "#0f715d",
+            "help": ""
+        },
+        {
+            "key": -3,
+            "name": "Login",
+            "type": "Functionality feature",
+            "parent": 0,
+            "parentRelation": "Normal",
+            "presence": "Optional",
+            "lgFile": "",
+            "role": "",
+            "hexColor": "#57330a",
+            "help": ""
+        },
+        {
+            "key": -4,
+            "name": "CurrencyExchange",
+            "type": "Functionality feature",
+            "parent": 0,
+            "parentRelation": "Normal",
+            "presence": "Optional",
+            "lgFile": "",
+            "role": "",
+            "hexColor": "#5b540b",
+            "help": ""
+        },
+        {
+            "key": -5,
+            "name": "Limit",
+            "type": "Functionality feature",
+            "parent": 0,
+            "parentRelation": "Normal",
+            "presence": "Optional",
+            "lgFile": "",
+            "role": "",
+            "hexColor": "#2d770e",
+            "help": ""
+        },
+        {
+            "key": -6,
+            "name": "Github",
+            "type": "Functionality feature",
+            "parent": -3,
+            "parentRelation": "Or",
+            "presence": "Normal",
+            "lgFile": "",
+            "role": "",
+            "hexColor": "#64112e",
+            "help": ""
+        },
+        {
+            "key": -7,
+            "name": "Microsoft",
+            "type": "Functionality feature",
+            "parent": -3,
+            "parentRelation": "Or",
+            "presence": "Normal",
+            "lgFile": "",
+            "role": "",
+            "hexColor": "#1f1056",
+            "help": ""
+        }
+    ],
+    "resourceFiles": [],
+    "resourceTexts": [],
+    "resourceSmartAppAssets": [],
+    "resourceColors": [],
+    "constraints": []
+}
